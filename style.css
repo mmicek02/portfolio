@@ -96,12 +96,12 @@
 @media screen and (min-width: 1051px) {
     .heroImage {
         background: url('images/headshot.gif');
-        display: flex; 
         width: 400px;
         height: 400px;
         border: 5px solid #5ed243;
         border-radius: 400px;
-        float: right;
+        margin-right: auto;
+        margin-left: auto;
         padding-left: 1.0em; 
         }
     .portfolioImage > img {
@@ -113,11 +113,6 @@
         margin-right: auto;
         text-align: center;
         }
-    .mainIndex {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        }
     p {
         width: 700px;
         margin-left: auto;
@@ -128,9 +123,6 @@
         }
     .portfolioLink {
         display: none;
-    }
-    main {
-        text-align: center;
     }
 }
 /* Universal CSS */
