@@ -1,10 +1,98 @@
+/* Universal CSS */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'B612 Mono', monospace;
+    color: #222222;
+    background-color: #f0f0f0
+}
+nav {
+    padding-right: 1.0em; 
+    width: auto;
+    height: 100px;
+    line-height: 20px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 2.0em;
+    padding-left: 3.0em; 
+    line-height: 20px;
+    font-size: 20px;
+}
+main {
+    padding: 3.0em;
+}
+header {
+    padding-left: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 2.5em;
+}
+.headline {
+    padding-top: 1.0em;
+}
+p {
+    margin-top: 1.0em;
+    margin-bottom: 2.0em;
+    height: auto;
+    line-height: 20px;
+    size: 16px;
+}
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+.contactInfo {
+    margin-top: 2.0em;
+    padding: 2.0em;
+}
+.contactInfo a {
+    font-size: 1.0em;
+}
+.projectLink a {
+    font-size: 1.0em;  
+}
+a:link {
+   color: #5ed243;
+}
+a:visited {
+    color: #389922;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    line-height: 36px;
+}
+.projectLink {
+    margin-top: 2.0em;
+}
+.portfolioImage {
+    flex: 0 1 400px;
+    width: 800px;
+    height: 500px;
+    box-shadow: 5px, 10px, 0, 0 black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 @media screen and (max-width: 425px) {
-    header {
+    /*header {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        }
+        }*/
     .navbar {
         display: flex;
         flex-direction: row;
@@ -49,13 +137,13 @@
   }
   /* screen related flex elements for tablets */
 @media screen and (min-width: 426px) and (max-width: 1050px) {
-    header {
+    /*header {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         flex: 0 1 300px;
-        }
+        }*/
     .navbar {
         display: flex;
         flex-direction: row;
@@ -134,91 +222,3 @@
         font-size: 1.0em; 
     }
 }
-/* Universal CSS */
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-    font-family: 'B612 Mono', monospace;
-    color: #222222;
-    background-color: #f0f0f0
-}
-nav {
-    padding-right: 1.0em; 
-    width: auto;
-    height: 100px;
-    line-height: 20px;
-}
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-top: 2.0em;
-    padding-left: 3.0em; 
-    line-height: 20px;
-    font-size: 20px;
-}
-main {
-    padding: 2.0em;
-}
-header {
-    padding-left: 1.5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-size: 2.5em;
-}
-.headline {
-    padding-top: 1.0em;
-}
-p {
-    margin-top: 1.0em;
-    margin-bottom: 2.0em;
-    height: auto;
-    line-height: 20px;
-    size: 16px;
-}
-h2 {
-    font-size: 32px;
-    text-align: center;
-}
-.contactInfo {
-    margin-top: 2.0em;
-    padding: 2.0em;
-}
-.contactInfo a {
-    font-size: 1.0em;
-}
-.projectLink a {
-    font-size: 1.0em;  
-}
-a:link {
-   color: #5ed243;
-}
-a:visited {
-    color: #389922;
-}
-a:link {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-ul {
-    list-style-type: none;
-    text-align: center;
-    line-height: 36px;
-}
-.projectLink {
-    margin-top: 2.0em;
-}
-.portfolioImage {
-    flex: 0 1 400px;
-    width: 800px;
-    height: 500px;
-    box-shadow: 5px, 10px, 0, 0 black;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    }
