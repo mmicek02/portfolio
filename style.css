@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'B612 Mono', monospace;
     color: #222222;
-    background-color: #f0f0f0
+    background-color: #fff
 }
 nav {
     padding-right: 1.0em; 
@@ -58,10 +58,10 @@ h2 {
     font-size: 1.0em;  
 }
 a:link {
-   color: #5ed243;
+   color: #009900;
 }
 a:visited {
-    color: #389922;
+    color: #cc0099;
 }
 a:link {
     text-decoration: none;
@@ -105,7 +105,7 @@ ul {
         background: url('images/headshot.gif');
         width: 200px;
         height: 200px;
-        border: 5px solid #5ed243;
+        border: 5px solid #009900;
         border-radius: 200px;
         margin-left: auto;
         margin-right: auto;
@@ -156,7 +156,7 @@ ul {
         background: url('images/headshot.gif');
         width: 400px;
         height: 400px;
-        border: 5px solid #5ed243;
+        border: 5px solid #009900;
         border-radius: 400px;
         margin-left: auto;
         margin-right: auto;
@@ -192,7 +192,7 @@ ul {
         background: url('images/headshot.gif');
         width: 400px;
         height: 400px;
-        border: 5px solid #5ed243;
+        border: 5px solid #009900;
         border-radius: 400px;
         margin-right: auto;
         margin-left: auto;
